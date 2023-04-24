@@ -119,7 +119,7 @@ if st.button('Predict'):
     # 3. predict
     result = model.predict(vector_input)
     # 4. Display
-    if result[0] == '0':
+    if result[0] == 0:
         st.header("Not Fake")
     else:
         st.header("Fake")
