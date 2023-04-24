@@ -108,7 +108,7 @@ def data_prep(x_test):
 tfidf = joblib.load('vectorizer.pkl')
 model = joblib.load('model.pkl')
 
-st.title("Faek News Classifier")
+st.title("Fake News Classifier")
 
 input_sms = st.text_area("Enter the news headline")
 
